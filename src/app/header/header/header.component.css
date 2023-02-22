@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color:blue
+}
+li {
+    border: 1px solid #000;
+    background-color: blanchedalmond;
+}
+nav{
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding: 10px 0.5%;
+    display: flex;
+    margin: 2% 5% 1px 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 50px;
+    margin-right: 1em;
+}
+
+.cart li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
